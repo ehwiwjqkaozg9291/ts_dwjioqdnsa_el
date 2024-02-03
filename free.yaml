@@ -1,1 +1,180 @@
 proxies:
+  - name: VM2 IPTNL
+    server: jala.iptunnels.com
+    port: 80
+    type: vmess
+    uuid: 88c543ab-d1c6-4575-9499-27374bb3cc29
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/buy-vmess-ws-pm-telegram-at-synricha
+      headers:
+        Host: jala.iptunnels.com
+    udp: true
+  - name: VM3 IPTNL
+    server: jala.iptunnels.com
+    port: 80
+    type: vmess
+    uuid: faee08ea-1bd2-4996-97ad-ea2b64911983
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/buy-vmess-ws-pm-telegram-at-synricha
+      headers:
+        Host: jala.iptunnels.com
+    udp: true
+  - name: VL3 IPTNL
+    server: jala.iptunnels.com
+    port: 80
+    type: vless
+    uuid: 3bbc7698-f855-4ac7-8fda-87012e81975d
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/buy-vless-ws-pm-telegram-at-synricha
+      headers:
+        Host: jala.iptunnels.com
+    udp: true
+  - name: WHID GBL
+    server: vmess-wh-id01.globalssh.xyz
+    port: 80
+    type: vmess
+    uuid: 8547c66a-d742-47b0-a42c-87080469387a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-ws
+      headers:
+        Host: vmess-wh-id01.globalssh.xyz
+    udp: true
+  - name: IKD GBL
+    server: vmess-ikd-id01.globalssh.xyz
+    port: 80
+    type: vmess
+    uuid: ca559b9e-3301-4c6c-b9dd-e8959b3faa2f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-ws
+      headers:
+        Host: vmess-ikd-id01.globalssh.xyz
+    udp: true
+  - name: CA GBL
+    server: vmess-ovh-ca01.globalssh.xyz
+    port: 80
+    type: vmess
+    uuid: 1e5125ae-81a4-445e-bd67-1c7c60a265ef
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-ws
+      headers:
+        Host: vmess-ovh-ca01.globalssh.xyz
+    udp: true
+  - name: SG GBL
+    server: vmess-sg01.globalssh.xyz
+    port: 80
+    type: vmess
+    uuid: ae7f46ea-e48e-41de-9baf-c730f977b3d0
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-ws
+      headers:
+        Host: vmess-sg01.globalssh.xyz
+    udp: true
+  - name: DE GBL
+    server: vmess-adv-de01.globalssh.xyz
+    port: 80
+    type: vmess
+    uuid: 4bc87db5-6f47-4563-9053-d37a24bbbf91
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-ws
+      headers:
+        Host: vmess-adv-de01.globalssh.xyz
+    udp: true
+  - name: NL GBL
+    server: vmess-dis-nl01.globalssh.xyz
+    port: 80
+    type: vmess
+    uuid: 159f9e5e-20d9-4039-9086-738e27b6b530
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-ws
+      headers:
+        Host: vmess-dis-nl01.globalssh.xyz
+    udp: true
+  - name: US1 GBL
+    server: vmess-rs-us01.globalssh.xyz
+    port: 80
+    type: vmess
+    uuid: 578c17fe-6707-4960-b493-6d91d5b2c1bf
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-ws
+      headers:
+        Host: vmess-rs-us01.globalssh.xyz
+    udp: true
+  - name: US2 GBL
+    server: vmess-rs-us02.globalssh.xyz
+    port: 80
+    type: vmess
+    uuid: b233fce8-0c29-46cb-bae3-1931f3943c50
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-ws
+      headers:
+        Host: vmess-rs-us02.globalssh.xyz
+    udp: true
+  - name: US3 GBL
+    server: vmess-rs-us03.globalssh.xyz
+    port: 80
+    type: vmess
+    uuid: 236bafd7-4966-4141-ba36-1aa49f360776
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-ws
+      headers:
+        Host: vmess-rs-us03.globalssh.xyz
+    udp: true
