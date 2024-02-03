@@ -1,0 +1,65 @@
+proxies:
+  - name: CBTP
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 311b0e20-bd07-11ee-8263-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cbtp.xmbb.net
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: cbtp.xmbb.net
+    udp: true
+  - name: CBTP 80
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: 549c1f60-bd07-11ee-b54e-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cbtp.xmbb.net
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: cbtp.xmbb.net
+    udp: true
+  - name: Sanggoro 80
+    server: beacon.liveon.id
+    port: 80
+    type: vmess
+    uuid: 47794f20-b5ad-11ee-a3df-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 5.lowh.net
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: 5.lowh.net
+    udp: true
+  - name: Sanggoro 443
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 32c91600-b5ad-11ee-90ae-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 5.lowh.net
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 5.lowh.net
+    udp: true
