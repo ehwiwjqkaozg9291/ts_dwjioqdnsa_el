@@ -1,6 +1,6 @@
 proxies:
   - name: SG HERZA
-    server: beacon.liveon.id
+    server: 11.lowh.net
     port: 80
     type: vmess
     uuid: 6e1cebe0-ab01-11ee-bf49-1577c1651679
@@ -8,31 +8,14 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: 11.lowh.net
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: 11.lowh.net
-    udp: true
-  - name: SGGS 443
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 8eefd8c0-aa05-11ee-9bed-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.htmlcdn.net
-    network: ws
-    ws-opts:
-      path: /hello
-      headers:
-        Host: 2.htmlcdn.net
+        Host: tsel.me
     udp: true
   - name: SGGS 80
-    server: beacon.liveon.id
+    server: 2.htmlcdn.net
     port: 80
     type: vmess
     uuid: 9c01b0c0-aa05-11ee-bb98-1577c1651679
@@ -40,15 +23,14 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: 2.htmlcdn.net
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: 2.htmlcdn.net
+        Host: tsel.me
     udp: true
   - name: Path 80
-    server: beacon.liveon.id
+    server: sg.htmlcdn.net
     port: 80
     type: vmess
     uuid: 4b42c0e0-a395-11ee-b69d-1577c1651679
@@ -56,44 +38,11 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg.htmlcdn.net
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: sg.htmlcdn.net
-    udp: true
-  - name: Path 443
-    server: sg.htmlcdn.net
-    port: 443
-    type: vmess
-    uuid: 537d5b60-a395-11ee-9f93-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /hello
-      headers:
-        Host: shopee.co.id
-    udp: true
-  - name: HE 443
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 6dac7ef0-aa03-11ee-a73c-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 10.lowh.net
-    network: ws
-    ws-opts:
-      path: /hello
-      headers:
-        Host: 10.lowh.net
+        Host: tsel.me
     udp: true
   - name: HE 80
     server: beacon.liveon.id
