@@ -53,10 +53,9 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: 10.lowh.net
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: 10.lowh.net
+        Host: tsel.me
     udp: true
