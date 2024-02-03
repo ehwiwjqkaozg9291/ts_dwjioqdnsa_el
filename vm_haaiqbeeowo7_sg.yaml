@@ -45,7 +45,7 @@ proxies:
         Host: tsel.me
     udp: true
   - name: HE 80
-    server: beacon.liveon.id
+    server: 10.lowh.net
     port: 80
     type: vmess
     uuid: 3d35de00-ab01-11ee-b70f-1577c1651679
