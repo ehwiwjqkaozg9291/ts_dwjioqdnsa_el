@@ -14,14 +14,14 @@ proxies:
       headers:
         Host: sg1-vmess.tunnel.cx
     udp: true
-  - name: Serverssh ID
+  - name: ServerSSH ID
     server: idray.serverip.my.id
-    port: 443
+    port: 80
     type: vmess
     uuid: d3a9a487-ca7a-44dc-9e93-4e1138c6e177
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
