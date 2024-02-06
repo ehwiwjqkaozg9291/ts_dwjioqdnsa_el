@@ -3,7 +3,7 @@ proxies:
     server: jala.iptunnels.com
     port: 80
     type: vmess
-    uuid: 88c543ab-d1c6-4575-9499-27374bb3cc29
+    uuid: 07e4add5-21a0-4708-a046-21bbaaeab0f3
     alterId: 0
     cipher: auto
     tls: false
@@ -18,7 +18,7 @@ proxies:
     server: jala.iptunnels.com
     port: 80
     type: vmess
-    uuid: 819c45a7-8f47-425c-81d1-141a0dd2436b
+    uuid: 9c1ad1f6-94cf-48cf-9971-50f542195929
     alterId: 0
     cipher: auto
     tls: false
@@ -33,7 +33,7 @@ proxies:
     server: jala.iptunnels.com
     port: 80
     type: vless
-    uuid: 039a4def-e2ac-4fe8-af9a-234392221620
+    uuid: c97a9995-329f-465b-b583-b9d509e9b2b1
     cipher: auto
     tls: false
     skip-cert-verify: true
