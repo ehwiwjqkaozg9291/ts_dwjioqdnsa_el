@@ -194,3 +194,18 @@ proxies:
       headers:
         Host: sg4.xv2ray.net
     udp: true
+  - name: MEK
+    server: sg1.xv2ray.net
+    port: 80
+    type: vmess
+    uuid: 32b72562-3e08-4e42-9a2d-1219a643db5c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess
+      headers:
+        Host: sg1.xv2ray.net
+    udp: true
