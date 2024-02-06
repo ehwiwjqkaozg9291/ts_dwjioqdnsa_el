@@ -1,5 +1,5 @@
 proxies:
-  - name: CANADA
+  - name: CANADAku
     server: ca-ray.ipservers.xyz
     port: 80
     type: vmess
@@ -10,7 +10,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree/JAGOANSSH/
+      path: /worryfree/JAGOANSSH/
       headers:
-        Host: ca-ray.ipservers.xyz
+        Host: tsel.me
     udp: true
