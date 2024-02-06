@@ -1,16 +1,46 @@
 proxies:
-  - name: CANADAku
-    server: ca-ray.ipservers.xyz
+  - name: Akun SG1
+    server: sg1-vmess.tunnel.cx
     port: 80
     type: vmess
-    uuid: 79baee51-4a08-4102-93a9-0878f7e4c089
+    uuid: 2a8df4c8-c511-11ee-b972-9fd4b860afad
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/JAGOANSSH/
+      path: http://tsel.me/worryfree/vmess
       headers:
-        Host: tsel.me
+        Host: sg1-vmess.tunnel.cx
+    udp: true
+  - name: Serverssh ID
+    server: idray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: d3a9a487-ca7a-44dc-9e93-4e1138c6e177
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: idray.serverip.my.id
+    udp: true
+  - name: Ocean ID1
+    server: id1.xv2ray.net
+    port: 80
+    type: vmess
+    uuid: 7473ec78-6a81-4585-8913-64a3faae1ce5
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess
+      headers:
+        Host: id1.xv2ray.net
     udp: true
