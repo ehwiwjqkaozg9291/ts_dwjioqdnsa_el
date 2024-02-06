@@ -18,7 +18,7 @@ proxies:
     server: 5.lowh.net
     port: 80
     type: vmess
-    uuid: 47794f20-b5ad-11ee-a3df-1577c1651679
+    uuid: aab66db0-c4f0-11ee-8831-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
