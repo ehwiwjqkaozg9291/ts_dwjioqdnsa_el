@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
-  - name: ServerSSH SG
+  - name: Server SG1
     server: sg1ray.serverip.my.id
     port: 80
     type: vmess
@@ -43,6 +43,21 @@ proxies:
       path: http://tsel.me/worryfree
       headers:
         Host: sg1ray.serverip.my.id
+    udp: true
+  - name: Server SG2
+    server: sg2ray.serverip.my.id
+    port: 80
+    type: vmess
+    uuid: 07a570a5-b370-4cce-a745-9c2a52b2b55e
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: sg2ray.serverip.my.id
     udp: true
   - name: Server SGM1
     server: sgm1ray.serverip.my.id
