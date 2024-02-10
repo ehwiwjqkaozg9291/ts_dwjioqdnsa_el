@@ -47,7 +47,7 @@ proxies:
     server: vmess-wh-id01.globalssh.xyz
     port: 80
     type: vmess
-    uuid: 8547c66a-d742-47b0-a42c-87080469387a
+    uuid: 51784e74-8551-4477-9c63-b29a96e17342
     alterId: 0
     cipher: auto
     tls: false
@@ -62,7 +62,7 @@ proxies:
     server: vmess-ikd-id01.globalssh.xyz
     port: 80
     type: vmess
-    uuid: ca559b9e-3301-4c6c-b9dd-e8959b3faa2f
+    uuid: c470d9e2-cdcb-4aee-a3c5-3b2569163728
     alterId: 0
     cipher: auto
     tls: false
@@ -77,7 +77,7 @@ proxies:
     server: vmess-ovh-ca01.globalssh.xyz
     port: 80
     type: vmess
-    uuid: 1e5125ae-81a4-445e-bd67-1c7c60a265ef
+    uuid: e1dabbeb-49f8-4124-a10e-443e1504d695
     alterId: 0
     cipher: auto
     tls: false
@@ -92,7 +92,7 @@ proxies:
     server: vmess-sg01.globalssh.xyz
     port: 80
     type: vmess
-    uuid: ae7f46ea-e48e-41de-9baf-c730f977b3d0
+    uuid: 05ef94cf-f66f-4d85-bd2e-d58ef4685110
     alterId: 0
     cipher: auto
     tls: false
@@ -107,7 +107,7 @@ proxies:
     server: vmess-adv-de01.globalssh.xyz
     port: 80
     type: vmess
-    uuid: 4bc87db5-6f47-4563-9053-d37a24bbbf91
+    uuid: f81198de-9d0d-4a64-a5b8-a2bf466e4c67
     alterId: 0
     cipher: auto
     tls: false
@@ -122,7 +122,7 @@ proxies:
     server: vmess-dis-nl01.globalssh.xyz
     port: 80
     type: vmess
-    uuid: 159f9e5e-20d9-4039-9086-738e27b6b530
+    uuid: 15377dca-8c19-45e2-b961-5f3a1f156d54
     alterId: 0
     cipher: auto
     tls: false
@@ -137,7 +137,7 @@ proxies:
     server: vmess-rs-us01.globalssh.xyz
     port: 80
     type: vmess
-    uuid: 578c17fe-6707-4960-b493-6d91d5b2c1bf
+    uuid: a9ea2805-3af9-4f84-804a-e2cd23f11461
     alterId: 0
     cipher: auto
     tls: false
@@ -152,7 +152,7 @@ proxies:
     server: vmess-rs-us02.globalssh.xyz
     port: 80
     type: vmess
-    uuid: b233fce8-0c29-46cb-bae3-1931f3943c50
+    uuid: 647a0898-173e-435b-8fa1-a8cd61f6c82d
     alterId: 0
     cipher: auto
     tls: false
@@ -167,7 +167,7 @@ proxies:
     server: vmess-rs-us03.globalssh.xyz
     port: 80
     type: vmess
-    uuid: 236bafd7-4966-4141-ba36-1aa49f360776
+    uuid: 063c32ae-bef0-41ab-aee4-4168bb3096f8
     alterId: 0
     cipher: auto
     tls: false
