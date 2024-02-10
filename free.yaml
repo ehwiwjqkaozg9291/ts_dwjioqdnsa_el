@@ -73,6 +73,20 @@ proxies:
       headers:
         Host: vmess-ikd-id01.globalssh.xyz
     udp: true
+  - name: IKD VL
+    server: vless-ikd-id01.globalssh.xyz
+    port: 80
+    type: vless
+    uuid: 77046ede-b652-4692-8307-6014c754740e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vless-ws
+      headers:
+        Host: vless-ikd-id01.globalssh.xyz
+    udp: true
   - name: CA GBL
     server: vmess-ovh-ca01.globalssh.xyz
     port: 80
