@@ -73,13 +73,13 @@ proxies:
       headers:
         Host: vmess-ikd-id01.globalssh.xyz
     udp: true
-  - name: IKD VL
+  - name: IKD VL GBL
     server: vless-ikd-id01.globalssh.xyz
     port: 80
     type: vless
     uuid: 77046ede-b652-4692-8307-6014c754740e
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
