@@ -3,7 +3,7 @@ proxies:
     server: jala.iptunnels.com
     port: 80
     type: vmess
-    uuid: 07e4add5-21a0-4708-a046-21bbaaeab0f3
+    uuid: 8151a908-3791-4d6d-b7b9-c521c6090f4a
     alterId: 0
     cipher: auto
     tls: false
@@ -18,7 +18,7 @@ proxies:
     server: jala.iptunnels.com
     port: 80
     type: vmess
-    uuid: 4afadc90-5b81-4966-a6bc-6e288742f0e0
+    uuid: 9e987362-171c-4e01-81f1-a5a3ff29cc53
     alterId: 0
     cipher: auto
     tls: false
@@ -33,7 +33,7 @@ proxies:
     server: jala.iptunnels.com
     port: 80
     type: vless
-    uuid: c97a9995-329f-465b-b583-b9d509e9b2b1
+    uuid: 648081b3-803a-4956-a99a-efd3887b152f
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -62,7 +62,7 @@ proxies:
     server: vmess-ikd-id01.globalssh.xyz
     port: 80
     type: vmess
-    uuid: c470d9e2-cdcb-4aee-a3c5-3b2569163728
+    uuid: fcab01fd-e30e-4553-96b0-b18862154b7a
     alterId: 0
     cipher: auto
     tls: false
@@ -72,20 +72,6 @@ proxies:
       path: http://tsel.me/worryfree/vmess-ws
       headers:
         Host: vmess-ikd-id01.globalssh.xyz
-    udp: true
-  - name: IKD VL GBL
-    server: vless-ikd-id01.globalssh.xyz
-    port: 80
-    type: vless
-    uuid: 77046ede-b652-4692-8307-6014c754740e
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree/vless-ws
-      headers:
-        Host: vless-ikd-id01.globalssh.xyz
     udp: true
   - name: CA GBL
     server: vmess-ovh-ca01.globalssh.xyz
