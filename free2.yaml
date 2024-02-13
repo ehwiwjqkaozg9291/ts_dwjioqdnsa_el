@@ -1,4 +1,19 @@
 proxies:
+  - name: SG2 Create
+    server: sg2.createv2ray.com
+    port: 80
+    type: vmess
+    uuid: dbaee2fa-77d6-42cc-b2f8-9a09fc2cbd2f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess
+      headers:
+        Host: sg2.createv2ray.com
+    udp: true
   - name: Akun SG1
     server: sg1-vmess.tunnel.cx
     port: 80
