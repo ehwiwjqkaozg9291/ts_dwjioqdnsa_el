@@ -104,6 +104,21 @@ proxies:
       headers:
         Host: sgm2ray.serverip.my.id
     udp: true
+  - name: Server SGM2 v2
+    server: sgm2ray.serverip.my.id
+    port: 80
+    type: vmess
+    uuid: 425848d4-539a-48cb-bbb3-b6c7009d180d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: sgm2ray.serverip.my.id
+    udp: true
   - name: Ocean ID1
     server: id1.xv2ray.net
     port: 80
