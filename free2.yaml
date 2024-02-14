@@ -33,7 +33,7 @@ proxies:
     server: idray.serverip.my.id
     port: 80
     type: vmess
-    uuid: d3a9a487-ca7a-44dc-9e93-4e1138c6e177
+    uuid: 0f960f64-83ea-4b42-81d3-ec5ae7614fb8
     alterId: 0
     cipher: auto
     tls: false
@@ -48,7 +48,7 @@ proxies:
     server: sg1ray.serverip.my.id
     port: 80
     type: vmess
-    uuid: 434a0335-92df-4950-83fa-eeca9dd21e77
+    uuid: 6c4c54c6-e6f7-4f8f-bf3d-23a1e23bcc35
     alterId: 0
     cipher: auto
     tls: false
@@ -63,7 +63,7 @@ proxies:
     server: sg2ray.serverip.my.id
     port: 80
     type: vmess
-    uuid: 07a570a5-b370-4cce-a745-9c2a52b2b55e
+    uuid: 0fb28051-37f5-4aad-b4cb-477228da4e8d
     alterId: 0
     cipher: auto
     tls: false
