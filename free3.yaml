@@ -9,7 +9,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/opentunnel.net-fonibciax
+      path: /worryfree/opentunnel.net-fonibciax/optionalpath
       headers:
         Host: tsel.me
     udp: true
@@ -28,7 +28,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: SGV1
+  - name: SGV1x
     server: sgv-1.openv2ray.com
     port: 80
     type: vmess
@@ -39,7 +39,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/opentunnel.net-fwqefwwq
+      path: /worryfree/opentunnel.net-fwqefwwq/optionalpath
       headers:
         Host: tsel.me
     udp: true
