@@ -1,1 +1,76 @@
 proxies:
+  - name: Main ID
+    server: idnws.mainssh.xyz
+    port: 80
+    type: vmess
+    uuid: 6f57ee8d-a51f-40aa-9fc2-e99abda3ed8e
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-nonetls
+      headers:
+        Host: idnws.mainssh.xyz
+    udp: true
+  - name: Main SG2
+    server: sg2nws.mainssh.xyz
+    port: 80
+    type: vmess
+    uuid: 43e1363c-67e8-43bc-9c14-a0c0d1aff0ac
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-nonetls
+      headers:
+        Host: sg2nws.mainssh.xyz
+    udp: true
+  - name: Main SG3
+    server: sg3nws.mainssh.xyz
+    port: 80
+    type: vmess
+    uuid: 925fc06f-0cfa-4dff-b0f8-3e3c4af78fba
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-nonetls
+      headers:
+        Host: sg3nws.mainssh.xyz
+    udp: true
+  - name: Main FR
+    server: frnws.mainssh.xyz
+    port: 80
+    type: vmess
+    uuid: 8fe14de6-f590-427c-a2d9-ef37bad9b376
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-nonetls
+      headers:
+        Host: frnws.mainssh.xyz
+    udp: true
+  - name: Main US
+    server: usnws.mainssh.xyz
+    port: 80
+    type: vmess
+    uuid: e6d09369-f154-47d1-aea9-dc96f4a12b74
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess-nonetls
+      headers:
+        Host: usnws.mainssh.xyz
+    udp: true
