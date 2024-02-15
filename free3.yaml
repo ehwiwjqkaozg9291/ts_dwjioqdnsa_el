@@ -1,165 +1,60 @@
 proxies:
-  - name: SGX3
-    server: sgx-3.openv2ray.com
+  - name: ID Herza 22feb
+    server: id-1.hihu.net
+    port: 80
+    type: vmess
+    uuid: 04a7f380-cbbd-11ee-b930-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: Jagoan 22feb
+    server: frfqwefqe
+    port: 80
+    type: vmess
+    uuid: 9130431d-4183-4e55-8ea4-f3e5af3bf897
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/JAGOANSSH/
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: Vl WS 22
+    server: asia2.fufo.org
     port: 80
     type: vless
-    uuid: 4f17e173-4af9-5041-9662-f6c27e0decfd
+    uuid: 393a65e0-cbbd-11ee-b335-205c6d5f5d78
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/opentunnel.net-fonibciax/optionalpath
+      path: /worryfree/vlws
       headers:
         Host: tsel.me
     udp: true
-  - name: FRV1
-    server: frv-1.openv2ray.com
+  - name: VM WS 22
+    server: asia2.fufo.org
     port: 80
     type: vmess
-    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-    alterId: 16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/opentunnel.net-fqwefqfzxc
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: SGV1x
-    server: sgv-1.openv2ray.com
-    port: 80
-    type: vmess
-    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-    alterId: 16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/opentunnel.net-fwqefwwq/optionalpath
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: SGV2
-    server: sgv-2.openv2ray.com
-    port: 80
-    type: vmess
-    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-    alterId: 16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/opentunnel.net-fqwefqfqwef
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: SGV3
-    server: sgv-3.openv2ray.com
-    port: 80
-    type: vmess
-    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-    alterId: 16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/opentunnel.net-qewfqwefq
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: SGV4
-    server: sgv-4.openv2ray.com
-    port: 80
-    type: vmess
-    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-    alterId: 16
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/opentunnel.net-feqwfqwef
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: Main ID
-    server: idnws.mainssh.xyz
-    port: 80
-    type: vmess
-    uuid: 6f57ee8d-a51f-40aa-9fc2-e99abda3ed8e
+    uuid: 530059e0-cbbd-11ee-b430-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree/vmess-nonetls
+      path: /worryfree/vmws
       headers:
-        Host: idnws.mainssh.xyz
-    udp: true
-  - name: Main SG2
-    server: sg2nws.mainssh.xyz
-    port: 80
-    type: vmess
-    uuid: 43e1363c-67e8-43bc-9c14-a0c0d1aff0ac
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree/vmess-nonetls
-      headers:
-        Host: sg2nws.mainssh.xyz
-    udp: true
-  - name: Main SG3
-    server: sg3nws.mainssh.xyz
-    port: 80
-    type: vmess
-    uuid: 925fc06f-0cfa-4dff-b0f8-3e3c4af78fba
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree/vmess-nonetls
-      headers:
-        Host: sg3nws.mainssh.xyz
-    udp: true
-  - name: Main FR
-    server: frnws.mainssh.xyz
-    port: 80
-    type: vmess
-    uuid: 8fe14de6-f590-427c-a2d9-ef37bad9b376
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree/vmess-nonetls
-      headers:
-        Host: frnws.mainssh.xyz
-    udp: true
-  - name: Main US
-    server: usnws.mainssh.xyz
-    port: 80
-    type: vmess
-    uuid: e6d09369-f154-47d1-aea9-dc96f4a12b74
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree/vmess-nonetls
-      headers:
-        Host: usnws.mainssh.xyz
+        Host: tsel.me
     udp: true
