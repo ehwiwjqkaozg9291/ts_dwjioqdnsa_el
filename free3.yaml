@@ -1,9 +1,9 @@
 proxies:
-  - name: ID Herza 22feb
+  - name: ID Herza 22febz
     server: id-1.hihu.net
     port: 80
     type: vmess
-    uuid: 04a7f380-cbbd-11ee-b930-205c6d5f5d78
+    uuid: 48ee9420-cc71-11ee-b530-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
