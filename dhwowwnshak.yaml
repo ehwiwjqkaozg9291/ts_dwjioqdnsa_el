@@ -1,5 +1,5 @@
 proxies:
-  - name: Path 80
+  - name: Path 80 v2
     server: sg.htmlcdn.net
     port: 80
     type: vmess
@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: SGGS 80
+  - name: SGGS 80 v2
     server: 2.htmlcdn.net
     port: 80
     type: vmess
@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: HE 80
+  - name: HE 80 v2
     server: 10.lowh.net
     port: 80
     type: vmess
@@ -44,7 +44,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: SG HERZA
+  - name: SG HERZA v2
     server: 11.lowh.net
     port: 80
     type: vmess
