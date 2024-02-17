@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: US FST
+  - name: US OVH 24
     server: us-22.hihu.net
     port: 80
     type: vmess
@@ -49,6 +49,36 @@ proxies:
     port: 80
     type: vmess
     uuid: 85a7be70-cda7-11ee-b237-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: US LA 24
+    server: us-21.hihu.net
+    port: 80
+    type: vmess
+    uuid: 942803d0-cda8-11ee-b538-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: US Virgi 24
+    server: us-23.hihu.net
+    port: 80
+    type: vmess
+    uuid: d2ee0ec0-cda8-11ee-b232-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
