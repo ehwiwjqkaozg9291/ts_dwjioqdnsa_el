@@ -14,47 +14,49 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: Jagoan 22feb
-    server: frfqwefqe
+  - name: LB US
+    server: lb.vhax.net
     port: 80
     type: vmess
-    uuid: 9130431d-4183-4e55-8ea4-f3e5af3bf897
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/JAGOANSSH/
+      path: /worryfree/sshkit/dqwdz/65d0b660aeb07/
       headers:
         Host: tsel.me
     udp: true
-  - name: Vl WS 22
-    server: asia2.fufo.org
-    port: 80
-    type: vless
-    uuid: 393a65e0-cbbd-11ee-b335-205c6d5f5d78
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vlws
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: VM WS 22
-    server: asia2.fufo.org
+  - name: SG1 KIT
+    server: vmess-sg1.sshkit.org
     port: 80
     type: vmess
-    uuid: 530059e0-cbbd-11ee-b430-205c6d5f5d78
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/vmws
+      path: /worryfree/sshkit/6696669243/65d0b6eb15ca6/
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: US KIT
+    server: vmess-us1.sshkit.org
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: czxc.com
+    network: ws
+    ws-opts:
+      path: /worryfree/sshkit/6696669243/65d0b70b18799/
       headers:
         Host: tsel.me
     udp: true
