@@ -1,4 +1,19 @@
 proxies:
+  - name: GB PREM IPTNL
+    server: jala.iptunnels.com
+    port: 80
+    type: vmess
+    uuid: dbfccc5a-adfb-4c35-bf8d-d3d20b89f526
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/buy-vmess-ws-pm-telegram-at-synricha
+      headers:
+        Host: jala.iptunnels.com
+    udp: true
   - name: VM2 IPTNL
     server: jala.iptunnels.com
     port: 80
