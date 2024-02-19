@@ -1,5 +1,5 @@
 proxies:
-  - name: GB PRM
+  - name: GB PRMz
     server: runcloud-27f.apasih.id
     port: 80
     type: vmess
