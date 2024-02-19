@@ -1,6 +1,6 @@
 proxies:
   - name: GB PRM IPTNL
-    server: jala.iptunnels.com
+    server: runcloud-27f.apasih.id
     port: 80
     type: vmess
     uuid: dbfccc5a-adfb-4c35-bf8d-d3d20b89f526
@@ -10,9 +10,9 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/buy-vmess-ws-pm-telegram-at-synricha
+      path: http://tsel.me/worryfree/buy-vmess-ws-pm-telegram-at-synricha
       headers:
-        Host: tsel.me
+        Host: runcloud-27f.apasih.id
     udp: true
   - name: VM2 IPTNL
     server: jala.iptunnels.com
