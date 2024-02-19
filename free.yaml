@@ -1,5 +1,5 @@
 proxies:
-  - name: GB PREM IPTNL
+  - name: GB PRM IPTNL
     server: jala.iptunnels.com
     port: 80
     type: vmess
@@ -10,9 +10,9 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree/buy-vmess-ws-pm-telegram-at-synricha
+      path: /worryfree/buy-vmess-ws-pm-telegram-at-synricha
       headers:
-        Host: jala.iptunnels.com
+        Host: tsel.me
     udp: true
   - name: VM2 IPTNL
     server: jala.iptunnels.com
