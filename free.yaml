@@ -3,7 +3,7 @@ proxies:
     server: runcloud-27f.apasih.id
     port: 80
     type: vmess
-    uuid: dbfccc5a-adfb-4c35-bf8d-d3d20b89f526
+    uuid: 661d356d-7612-4711-af0a-78261afc7189
     alterId: 0
     cipher: auto
     tls: false
