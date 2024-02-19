@@ -1,78 +1,123 @@
 proxies:
-  - name: SG2 Create
-    server: sg2.createv2ray.com
+  - name: SG1 Create
+    server: sg1.createv2ray.com
     port: 80
     type: vmess
-    uuid: dbaee2fa-77d6-42cc-b2f8-9a09fc2cbd2f
+    uuid: 86555d39-8823-455a-ba1d-562b257fc81d
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree/vmess
+      path: /worryfree/vmess
       headers:
-        Host: sg2.createv2ray.com
+        Host: tsel.me
+    udp: true
+  - name: SG2 Create
+    server: sg2.createv2ray.com
+    port: 80
+    type: vmess
+    uuid: b1080e08-1c62-4e36-8013-9077c8c257bf
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/vmess
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: SG3 Create
+    server: sg3.createv2ray.com
+    port: 80
+    type: vmess
+    uuid: 61b7a666-87e5-40a2-9d80-e04687b2d81f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/vmess
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: SG4 Create
+    server: sg4.createv2ray.com
+    port: 80
+    type: vmess
+    uuid: 87b12818-9d0d-4202-893d-cc28858d9ab0
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/vmess
+      headers:
+        Host: tsel.me
     udp: true
   - name: SG5 Create
     server: sg5.createv2ray.com
     port: 80
     type: vmess
-    uuid: ed1debbd-f276-478e-b6ce-17f13c468d2c
+    uuid: c6c62eab-9dae-41da-8a67-292b74516e63
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree/vmess
+      path: /worryfree/vmess
       headers:
-        Host: sg5.createv2ray.com
+        Host: tsel.me
     udp: true
   - name: SG6 Create
     server: sg6.createv2ray.com
     port: 80
     type: vmess
-    uuid: 56cbfef3-54e8-4719-b1c6-13071941982a
+    uuid: 53eaac97-0307-4686-ba8e-b6792fa372d1
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree/vmess
+      path: /worryfree/vmess
       headers:
-        Host: sg6.createv2ray.com
+        Host: tsel.me
+    udp: true
+  - name: SG7 Create
+    server: sg7.createv2ray.com
+    port: 80
+    type: vmess
+    uuid: 48bcf59d-20a6-4fbe-af61-a21d83f5c850
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/vmess
+      headers:
+        Host: tsel.me
     udp: true
   - name: SG8 Create
     server: sg8.createv2ray.com
     port: 80
     type: vmess
-    uuid: c47b361f-df65-46ce-9d9e-c86a0ded35ee
+    uuid: c991473e-c1d0-4445-b112-f6280b7de741
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: http://tsel.me/worryfree/vmess
+      path: /worryfree/vmess
       headers:
-        Host: sg8.createv2ray.com
-    udp: true
-  - name: Akun SG1
-    server: sg1-vmess.tunnel.cx
-    port: 80
-    type: vmess
-    uuid: 2a8df4c8-c511-11ee-b972-9fd4b860afad
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree/vmess
-      headers:
-        Host: sg1-vmess.tunnel.cx
+        Host: tsel.me
     udp: true
   - name: ServerSSH ID
     server: idray.serverip.my.id
