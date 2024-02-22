@@ -14,11 +14,41 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
+  - name: US OVH 01
+    server: us-22.hihu.net
+    port: 80
+    type: vmess
+    uuid: 50348250-d1a5-11ee-b531-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: US NF 01
+    server: us-netflix.hihu.net
+    port: 80
+    type: vmess
+    uuid: 6be42330-d1a5-11ee-b437-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
   - name: UK SERV
     server: ukray.serverip.my.id
     port: 80
     type: vmess
-    uuid: 87ebad8f-6d65-498f-9d5f-2ddc50320870
+    uuid: d5e54b05-65ea-4a5c-acb8-f6d173bb4961
     alterId: 0
     cipher: auto
     tls: false
@@ -29,26 +59,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: US OVH 24
-    server: us-22.hihu.net
-    port: 80
-    type: vmess
-    uuid: 0aedb340-cda5-11ee-b431-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: NL FST
+  - name: NL FST 01
     server: eu-2.hihu.net
     port: 80
     type: vmess
-    uuid: 85a7be70-cda7-11ee-b237-205c6d5f5d78
+    uuid: d4a7ab60-d1a5-11ee-b037-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -59,11 +74,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: US LA 24
+  - name: US LA 01
     server: us-21.hihu.net
     port: 80
     type: vmess
-    uuid: 942803d0-cda8-11ee-b538-205c6d5f5d78
+    uuid: be9228f0-d1a5-11ee-b333-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -74,11 +89,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: US Virgi 24
+  - name: US Virgi 01
     server: us-23.hihu.net
     port: 80
     type: vmess
-    uuid: d2ee0ec0-cda8-11ee-b232-205c6d5f5d78
+    uuid: 80490fe0-d1a5-11ee-b636-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -89,59 +104,18 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: SG1 CrVL
-    server: sg1vless.createv2ray.com
+  - name: HE1 01
+    server: sg-1.hihu.net
     port: 80
-    type: vless
-    uuid: a343d279-9267-4ba5-b2b3-daa0c15d6e40
+    type: vmess
+    uuid: a727ed60-d1a5-11ee-b738-205c6d5f5d78
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/vless
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: SG2 CrVL
-    server: sg2vless.createv2ray.com
-    port: 80
-    type: vless
-    uuid: 52bc356d-523e-45fb-ae5f-3561577c8dea
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vless
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: SG3 CrVL
-    server: sg3vless.createv2ray.com
-    port: 80
-    type: vless
-    uuid: aa3716d5-67df-4cd7-992e-b81402f4f9d2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vless
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: SG4 CrVL
-    server: sg4vless.createv2ray.com
-    port: 80
-    type: vless
-    uuid: d8284715-bd1f-45ad-a593-ab3f259cff1a
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vless
+      path: /worryfree
       headers:
         Host: tsel.me
     udp: true
