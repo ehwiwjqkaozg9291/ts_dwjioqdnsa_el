@@ -77,7 +77,7 @@ proxies:
     server: vmess-ikd-id01.globalssh.xyz
     port: 80
     type: vmess
-    uuid: fcab01fd-e30e-4553-96b0-b18862154b7a
+    uuid: 6ee39498-e470-4463-8a89-37f1d512499a
     alterId: 0
     cipher: auto
     tls: false
