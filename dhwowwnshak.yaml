@@ -45,7 +45,7 @@ proxies:
         Host: tsel.me
     udp: true
   - name: SG HERZA v2
-    server: 11.lowh.net
+    server: 202.70.133.143
     port: 80
     type: vmess
     uuid: 6e1cebe0-ab01-11ee-bf49-1577c1651679
