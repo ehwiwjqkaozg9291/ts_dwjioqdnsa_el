@@ -194,7 +194,7 @@ proxies:
       headers:
         Host: sg4.xv2ray.net
     udp: true
-  - name: Ocean SG6
+  - name: Ocena SG6
     server: sg6.xv2ray.net
     port: 80
     type: vmess
@@ -219,9 +219,9 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/vless
+      path: http://tsel.me/worryfree/vless
       headers:
-        Host: tsel.me
+        Host: sg2.v2vless.xyz
     udp: true
   - name: SG3 VL
     server: sg3.v2vless.xyz
@@ -233,9 +233,9 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/vless
+      path: http://tsel.me/worryfree/vless
       headers:
-        Host: tsel.me
+        Host: sg3.v2vless.xyz
     udp: true
   - name: SG4 VL
     server: sg4.v2vless.xyz
@@ -247,9 +247,9 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/vless
+      path: http://tsel.me/worryfree/vless
       headers:
-        Host: tsel.me
+        Host: sg4.v2vless.xyz
     udp: true
   - name: SG6 VL
     server: sg6.v2vless.xyz
@@ -261,7 +261,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/vless
+      path: http://tsel.me/worryfree/vless
       headers:
-        Host: tsel.me
+        Host: sg6.v2vless.xyz
     udp: true
