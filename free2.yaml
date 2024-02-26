@@ -33,7 +33,7 @@ proxies:
     server: idray.serverip.my.id
     port: 80
     type: vmess
-    uuid: b309ac1f-8e6a-40f3-9482-7d63381454ab
+    uuid: 6079dc40-f961-4616-b925-77e5404ff668
     alterId: 0
     cipher: auto
     tls: false
@@ -48,7 +48,7 @@ proxies:
     server: sg1ray.serverip.my.id
     port: 80
     type: vmess
-    uuid: 69298e53-56a1-420c-bd46-f6c4ab9511ab
+    uuid: 6c01006e-b1c7-46ae-b32b-b6999f8fd475
     alterId: 0
     cipher: auto
     tls: false
@@ -59,11 +59,11 @@ proxies:
       headers:
         Host: sg1ray.serverip.my.id
     udp: true
-  - name: Server SG2 MT
+  - name: Server SG2
     server: sg2ray.serverip.my.id
     port: 80
     type: vmess
-    uuid: 0fb28051-37f5-4aad-b4cb-477228da4e8d
+    uuid: e87abbf3-10b6-48d1-a409-6e52461dbb8c
     alterId: 0
     cipher: auto
     tls: false
@@ -78,7 +78,7 @@ proxies:
     server: sgm1ray.serverip.my.id
     port: 80
     type: vmess
-    uuid: f2a14c3e-b7ee-4f9d-aeb0-49b75b779af6
+    uuid: e3d0df6d-feb0-433a-9aaf-3c95978fd0e6
     alterId: 0
     cipher: auto
     tls: false
@@ -93,7 +93,7 @@ proxies:
     server: sgm2ray.serverip.my.id
     port: 80
     type: vmess
-    uuid: bb32d757-6b0a-4c69-948f-0ffd60a187d0
+    uuid: 424b9a93-dd12-4caf-a321-20940de5bfb4
     alterId: 0
     cipher: auto
     tls: false
@@ -193,4 +193,75 @@ proxies:
       path: http://tsel.me/worryfree/vmess
       headers:
         Host: sg4.xv2ray.net
+    udp: true
+  - name: Ocean SG6
+    server: sg6.xv2ray.net
+    port: 80
+    type: vmess
+    uuid: 71608edb-6bda-46d1-9095-5f2e7ee7e452
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree/vmess
+      headers:
+        Host: sg6.xv2ray.net
+    udp: true
+  - name: SG2 VL
+    server: sg2.v2vless.xyz
+    port: 80
+    type: vless
+    uuid: 175f60f9-8906-47d9-a26f-d03b63f76e3e
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/vless
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: SG3 VL
+    server: sg3.v2vless.xyz
+    port: 80
+    type: vless
+    uuid: 8610b8d2-fed3-4ec2-8253-17cfbad71d26
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/vless
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: SG4 VL
+    server: sg4.v2vless.xyz
+    port: 80
+    type: vless
+    uuid: e24c8a8f-086e-47c6-be28-44a0c3de02fd
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/vless
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: SG6 VL
+    server: sg6.v2vless.xyz
+    port: 80
+    type: vless
+    uuid: 8758c5ca-bc1d-4bb3-b493-99a4febec43d
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/vless
+      headers:
+        Host: tsel.me
     udp: true
