@@ -1,5 +1,5 @@
 proxies:
-  - name: US OVH 04
+  - name: US OVH 10
     server: us-22.hihu.net
     port: 80
     type: vmess
@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: US NF 04
+  - name: US NF 10
     server: us-netflix.hihu.net
     port: 80
     type: vmess
@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: UK SERV
+  - name: UK SERV 10
     server: ukray.serverip.my.id
     port: 80
     type: vmess
@@ -44,7 +44,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: NL FST 04
+  - name: NL FST 10
     server: eu-2.hihu.net
     port: 80
     type: vmess
@@ -59,7 +59,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: US LA 04
+  - name: US LA 10
     server: us-21.hihu.net
     port: 80
     type: vmess
@@ -74,7 +74,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: US Virgi 04
+  - name: US Virgi 10
     server: us-23.hihu.net
     port: 80
     type: vmess
@@ -89,7 +89,7 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: HE1 04
+  - name: HE1 10
     server: sg-1.hihu.net
     port: 80
     type: vmess
