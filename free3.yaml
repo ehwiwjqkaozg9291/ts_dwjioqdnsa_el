@@ -1,24 +1,9 @@
 proxies:
-  - name: ID Herza 04
-    server: id-1.hihu.net
-    port: 80
-    type: vmess
-    uuid: 45895220-d450-11ee-b331-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
   - name: US OVH 04
     server: us-22.hihu.net
     port: 80
     type: vmess
-    uuid: dd808ec0-d44e-11ee-b638-205c6d5f5d78
+    uuid: 5f087040-d91d-11ee-b232-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -33,7 +18,7 @@ proxies:
     server: us-netflix.hihu.net
     port: 80
     type: vmess
-    uuid: 1e2f7250-d44f-11ee-b934-205c6d5f5d78
+    uuid: 84845770-d91d-11ee-b131-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -48,7 +33,7 @@ proxies:
     server: ukray.serverip.my.id
     port: 80
     type: vmess
-    uuid: 36b9b36e-e472-41b2-8ead-b83b45d4d268
+    uuid: 6fdffbaa-aaed-4e9a-891b-1c6e19fabf8f
     alterId: 0
     cipher: auto
     tls: false
@@ -63,7 +48,7 @@ proxies:
     server: eu-2.hihu.net
     port: 80
     type: vmess
-    uuid: c93aef10-d44f-11ee-b931-205c6d5f5d78
+    uuid: d5924e90-d91d-11ee-b833-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -78,7 +63,7 @@ proxies:
     server: us-21.hihu.net
     port: 80
     type: vmess
-    uuid: 0c687000-d44f-11ee-b534-205c6d5f5d78
+    uuid: a0cec9e0-d91d-11ee-b134-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -93,7 +78,7 @@ proxies:
     server: us-23.hihu.net
     port: 80
     type: vmess
-    uuid: 7e9ed5e0-d44f-11ee-b730-205c6d5f5d78
+    uuid: ffc9c320-d91d-11ee-b237-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -108,7 +93,7 @@ proxies:
     server: sg-1.hihu.net
     port: 80
     type: vmess
-    uuid: 0fd0c190-d450-11ee-b536-205c6d5f5d78
+    uuid: 2ba15b60-d91e-11ee-b133-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
