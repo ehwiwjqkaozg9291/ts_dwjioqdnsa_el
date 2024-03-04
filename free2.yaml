@@ -239,3 +239,91 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
+  - name: VL SGX3
+    server: sgx-3.openv2ray.com
+    port: 80
+    type: vless
+    uuid: 4f17e173-4af9-5041-9662-f6c27e0decfd
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/opentunnel.net-fwqefzxv
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: VL UKX1
+    server: ukx-1.openv2ray.com
+    port: 80
+    type: vless
+    uuid: 4f17e173-4af9-5041-9662-f6c27e0decfd
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/opentunnel.net-wqefghf
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: VM SGV1
+    server: sgv-1.openv2ray.com
+    port: 80
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/opentunnel.net-fewqfzc
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: VM SGV2
+    server: sgv-2.openv2ray.com
+    port: 80
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/opentunnel.net-feqwfq
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: VM SGV3
+    server: sgv-3.openv2ray.com
+    port: 80
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/opentunnel.net-efqwefqzxc
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: VM SGV4
+    server: sgv-4.openv2ray.com
+    port: 80
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /worryfree/opentunnel.net-fewqfqw
+      headers:
+        Host: tsel.me
+    udp: true
