@@ -3,7 +3,7 @@ proxies:
     server: idray.serverip.my.id
     port: 80
     type: vmess
-    uuid: 3e8caba5-3336-4fac-a6cd-8b964551aed6
+    uuid: 204aaa69-8ee2-4731-9cae-331364f567f1
     alterId: 0
     cipher: auto
     tls: false
@@ -18,7 +18,7 @@ proxies:
     server: sg1ray.serverip.my.id
     port: 80
     type: vmess
-    uuid: 11f00b64-62be-4a2e-b80e-dd99efbe48fe
+    uuid: a483c7c4-da24-4b60-8132-9342ec2697c7
     alterId: 0
     cipher: auto
     tls: false
@@ -33,7 +33,7 @@ proxies:
     server: sg2ray.serverip.my.id
     port: 80
     type: vmess
-    uuid: 4ac139ea-f48e-46b4-bb82-acf7ed88aa54
+    uuid: 681942ee-5dc9-42c6-935f-bff0829f9e00
     alterId: 0
     cipher: auto
     tls: false
@@ -74,11 +74,26 @@ proxies:
       headers:
         Host: sgm2ray.serverip.my.id
     udp: true
+  - name: ServerSSH UK
+    server: ukray.serverip.my.id
+    port: 80
+    type: vmess
+    uuid: eb12b4fa-fadf-47be-bed8-4b856aa8f0e1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: http://tsel.me/worryfree
+      headers:
+        Host: ukray.serverip.my.id
+    udp: true
   - name: Server DE
     server: deray.serverip.my.id
     port: 80
     type: vmess
-    uuid: b9d0b31e-0a9b-400a-9497-8f1c9871792f
+    uuid: 80833b48-0e6e-4a1e-af80-95dc688439ca
     alterId: 0
     cipher: auto
     tls: false
@@ -93,7 +108,7 @@ proxies:
     server: id1.xv2ray.net
     port: 80
     type: vmess
-    uuid: 7da05427-e1a0-4881-bb90-3cc417b93d0f
+    uuid: f0559dfd-effd-4bd2-b1f4-4fe2ab8123fb
     alterId: 0
     cipher: auto
     tls: false
@@ -108,7 +123,7 @@ proxies:
     server: id2.xv2ray.net
     port: 80
     type: vmess
-    uuid: b6995659-f306-4248-80a9-1d479e7b2bb5
+    uuid: 3e1d4d51-1f8e-4fec-8b36-4c22357b43bd
     alterId: 0
     cipher: auto
     tls: false
@@ -123,7 +138,7 @@ proxies:
     server: id3.xv2ray.net
     port: 80
     type: vmess
-    uuid: 0010f48b-d565-4ee7-82ce-27d0e12d002c
+    uuid: c15d3072-11cf-4465-a126-5e960e894ffa
     alterId: 0
     cipher: auto
     tls: false
@@ -138,7 +153,7 @@ proxies:
     server: id4.xv2ray.net
     port: 80
     type: vmess
-    uuid: e31495f4-1fc0-451d-9517-80001abae7a1
+    uuid: a392dac1-f2be-45fd-9a91-cc37ca6301f3
     alterId: 0
     cipher: auto
     tls: false
@@ -153,7 +168,7 @@ proxies:
     server: sg1.xv2ray.net
     port: 80
     type: vmess
-    uuid: d61d6bba-1305-4f91-89ec-84c37cd8f587
+    uuid: b5c292ea-8a6d-4ed6-a33a-18b5f545f1eb
     alterId: 0
     cipher: auto
     tls: false
@@ -168,67 +183,7 @@ proxies:
     server: sg2.xv2ray.net
     port: 80
     type: vmess
-    uuid: 2558a86b-9cfd-46bd-99db-7c21abeb3942
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vmess
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: Ocean SG3
-    server: sg3.xv2ray.net
-    port: 80
-    type: vmess
-    uuid: 755319f1-0ff4-4ed8-9e19-6eae7e22de89
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vmess
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: Ocean SG4
-    server: sg4.xv2ray.net
-    port: 80
-    type: vmess
-    uuid: 5123f2ef-e741-4916-a0f4-1feb8ed0e9d9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vmess
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: Ocean SG5
-    server: sg5.xv2ray.net
-    port: 80
-    type: vmess
-    uuid: eeeee532-cc3d-4e89-8339-36cb17598e41
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vmess
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: Ocean SG6
-    server: sg6.xv2ray.net
-    port: 80
-    type: vmess
-    uuid: 3db0feda-545c-463d-bb09-cefb649477db
+    uuid: 6efc187a-51ff-4e65-86e1-b23775ad1405
     alterId: 0
     cipher: auto
     tls: false
