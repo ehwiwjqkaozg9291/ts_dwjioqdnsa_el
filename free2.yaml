@@ -204,7 +204,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/opentunnel.net-fwqefzxv
+      path: /worryfree/opentunnel.net-fwqefih
       headers:
         Host: tsel.me
     udp: true
@@ -218,7 +218,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/opentunnel.net-wqefghf
+      path: /worryfree/opentunnel.net-fewqfgq
       headers:
         Host: tsel.me
     udp: true
@@ -233,7 +233,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/opentunnel.net-fewqfzc
+      path: /worryfree/opentunnel.net-iuhfs
       headers:
         Host: tsel.me
     udp: true
@@ -248,7 +248,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/opentunnel.net-feqwfq
+      path: /worryfree/opentunnel.net-fqewfzc
       headers:
         Host: tsel.me
     udp: true
@@ -263,7 +263,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/opentunnel.net-efqwefqzxc
+      path: /worryfree/opentunnel.net-cdjinsf8
       headers:
         Host: tsel.me
     udp: true
@@ -278,7 +278,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/opentunnel.net-fewqfqw
+      path: /worryfree/opentunnel.net-fdasiuc
       headers:
         Host: tsel.me
     udp: true
