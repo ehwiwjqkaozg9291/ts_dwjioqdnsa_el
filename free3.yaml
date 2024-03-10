@@ -1,9 +1,9 @@
 proxies:
-  - name: US OVH 10
+  - name: US OVH 17
     server: us-22.hihu.net
     port: 80
     type: vmess
-    uuid: 5f087040-d91d-11ee-b232-205c6d5f5d78
+    uuid: 1044cc60-ded4-11ee-b738-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -14,11 +14,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: US NF 10
+  - name: US NF 17
     server: us-netflix.hihu.net
     port: 80
     type: vmess
-    uuid: 84845770-d91d-11ee-b131-205c6d5f5d78
+    uuid: 27a40ca0-ded4-11ee-b038-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -29,26 +29,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: UK SERV 10
-    server: ukray.serverip.my.id
-    port: 80
-    type: vmess
-    uuid: 6fdffbaa-aaed-4e9a-891b-1c6e19fabf8f
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/serverssh.net
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: NL FST 10
+  - name: NL FST 17
     server: eu-2.hihu.net
     port: 80
     type: vmess
-    uuid: d5924e90-d91d-11ee-b833-205c6d5f5d78
+    uuid: 912fa3e0-ded4-11ee-b437-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -59,11 +44,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: US LA 10
+  - name: US LA 17
     server: us-21.hihu.net
     port: 80
     type: vmess
-    uuid: a0cec9e0-d91d-11ee-b134-205c6d5f5d78
+    uuid: 78bd31e0-ded4-11ee-b335-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -74,11 +59,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: US Virgi 10
+  - name: US Virgi 17
     server: us-23.hihu.net
     port: 80
     type: vmess
-    uuid: ffc9c320-d91d-11ee-b237-205c6d5f5d78
+    uuid: 5f550f40-ded4-11ee-b835-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -93,7 +78,7 @@ proxies:
     server: sg-1.hihu.net
     port: 80
     type: vmess
-    uuid: 2ba15b60-d91e-11ee-b133-205c6d5f5d78
+    uuid: ad8b1da0-ded4-11ee-b530-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
