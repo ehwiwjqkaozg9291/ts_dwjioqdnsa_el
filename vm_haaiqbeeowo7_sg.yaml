@@ -1,9 +1,9 @@
 proxies:
   - name: SG HERZA
-    server: 202.70.133.32
+    server: 11.lowh.net
     port: 80
     type: vmess
-    uuid: 6e1cebe0-ab01-11ee-bf49-1577c1651679
+    uuid: d3116e60-e046-11ee-bdff-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
@@ -19,21 +19,6 @@ proxies:
     port: 80
     type: vmess
     uuid: 9c01b0c0-aa05-11ee-bb98-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: Path 80
-    server: sg.htmlcdn.net
-    port: 80
-    type: vmess
-    uuid: ccfda740-ca26-11ee-94a0-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
