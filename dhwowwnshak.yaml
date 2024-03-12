@@ -1,19 +1,4 @@
 proxies:
-  - name: Path 80 v2
-    server: sg.htmlcdn.net
-    port: 80
-    type: vmess
-    uuid: ccfda740-ca26-11ee-94a0-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
   - name: SGGS 80 v2
     server: 2.htmlcdn.net
     port: 80
