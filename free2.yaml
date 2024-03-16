@@ -218,7 +218,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /worryfree/opentunnel.net-gqwgrqf
+      path: /worryfree/opentunnel.net-heivrv
       headers:
         Host: tsel.me
     udp: true
