@@ -134,56 +134,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: Ocean ID3
-    server: id3.xv2ray.net
-    port: 80
-    type: vmess
-    uuid: c15d3072-11cf-4465-a126-5e960e894ffa
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vmess
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: Ocean ID4
-    server: id4.xv2ray.net
-    port: 80
-    type: vmess
-    uuid: a392dac1-f2be-45fd-9a91-cc37ca6301f3
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vmess
-      headers:
-        Host: tsel.me
-    udp: true
   - name: Ocean SG1
     server: sg1.xv2ray.net
     port: 80
     type: vmess
     uuid: b5c292ea-8a6d-4ed6-a33a-18b5f545f1eb
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree/vmess
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: Ocean SG2
-    server: sg2.xv2ray.net
-    port: 80
-    type: vmess
-    uuid: 6efc187a-51ff-4e65-86e1-b23775ad1405
     alterId: 0
     cipher: auto
     tls: false
