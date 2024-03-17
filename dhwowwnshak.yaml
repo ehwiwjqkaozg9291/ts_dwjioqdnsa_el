@@ -33,7 +33,7 @@ proxies:
     server: 202.70.133.32
     port: 80
     type: vmess
-    uuid: d3116e60-e046-11ee-bdff-1577c1651679
+    uuid: 0e59cfa0-e47a-11ee-b111-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
@@ -48,7 +48,7 @@ proxies:
     server: 202.70.133.143
     port: 80
     type: vmess
-    uuid: d3116e60-e046-11ee-bdff-1577c1651679
+    uuid: 0e59cfa0-e47a-11ee-b111-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
