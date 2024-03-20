@@ -14,50 +14,6 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: VM2 IPTNL
-    server: jala.iptunnels.com
-    port: 80
-    type: vmess
-    uuid: 2613fe24-80b3-4c37-8093-54857c1ac178
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree/buy-vmess-ws-pm-telegram-at-synricha
-      headers:
-        Host: jala.iptunnels.com
-    udp: true
-  - name: VM3 IPTNL
-    server: jala.iptunnels.com
-    port: 80
-    type: vmess
-    uuid: 8046591d-6dfd-4899-a2bc-df9c18ff8393
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree/buy-vmess-ws-pm-telegram-at-synricha
-      headers:
-        Host: jala.iptunnels.com
-    udp: true
-  - name: VL3 IPTNL
-    server: jala.iptunnels.com
-    port: 80
-    type: vless
-    uuid: 35b34aeb-79d7-40a9-97f9-82d30a731478
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: http://tsel.me/worryfree/buy-vless-ws-pm-telegram-at-synricha
-      headers:
-        Host: jala.iptunnels.com
-    udp: true
   - name: WHID GBL
     server: vmess-wh-id01.globalssh.xyz
     port: 80
@@ -77,7 +33,7 @@ proxies:
     server: vmess-ikd-id01.globalssh.xyz
     port: 80
     type: vmess
-    uuid: 8f561c10-3309-4c06-bf06-af982009662b
+    uuid: 38d807fe-6761-428c-95fa-f17d3c1a6fdb
     alterId: 0
     cipher: auto
     tls: false
